@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.303.1
-    created: "2022-02-25T09:42:20.190708-05:00"
+    created: "2022-03-01T21:35:55.40691-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -38,7 +38,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.1.2
-    created: "2022-02-25T09:42:20.193372-05:00"
+    created: "2022-03-01T21:35:55.410933-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -62,4 +62,15 @@ entries:
     urls:
     - spark-5.7.4.tgz
     version: 5.7.4
-generated: "2022-02-25T09:42:20.182688-05:00"
+  spring-petclinic:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-01T21:35:55.411742-05:00"
+    description: A Helm chart for Kubernetes
+    digest: ee6fee9abb5c46d542c20e66143e7bc0e410570bb40241090b26ed861c772cdd
+    name: spring-petclinic
+    type: application
+    urls:
+    - spring-petclinic-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-01T21:35:55.402487-05:00"
